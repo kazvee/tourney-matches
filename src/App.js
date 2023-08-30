@@ -1,8 +1,16 @@
 import './App.css';
+import PlayerList from "./components/PlayerList";
+import MatchList from "./components/MatchList";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
+      <h1>
+        Tourney Matches{" "}
+        <span>Where Coding and Tournaments meet their Match!</span>
+      </h1>
+      <PlayerList />
+      <MatchList />
     </div>
   );
 }
